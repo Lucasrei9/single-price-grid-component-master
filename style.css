@@ -1,0 +1,154 @@
+/* root modification ===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+/* main modification ============================== */
+main {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.card {
+  width: 320px;
+  height: 250px;
+  padding: 2rem;
+}
+
+h2 {
+  padding-bottom: 0.8rem;
+}
+
+h3 {
+  padding-bottom: 0.8rem;
+}
+
+/* top modification ===================== */
+.top {
+  background-color: white;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.top h2 {
+  font-size: 20px;
+  color: hsl(167, 80%, 47%);
+}
+
+.top h3 {
+  font-size: 17px;
+  color: hsl(71, 73%, 54%);
+}
+
+.top p {
+  color: rgb(182, 178, 178);
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+/* main modification ==================== */
+.main {
+  height: 210px;
+  background-color: hsl(179, 72%, 44%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.main h2 {
+  font-size: 18px;
+  color: white;
+}
+
+.span {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.dollar {
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+
+.main p {
+  padding-top: 0.5rem;
+  color: white;
+}
+
+span {
+  color: rgba(253, 252, 252, 0.575);
+}
+
+.main a {
+  background-color: hsl(71, 78%, 47%);
+  margin-top: 2rem;
+  padding: 0.7rem 6.3rem;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* footer modification ================== */
+.footer {
+  background-color: hsl(179, 52%, 56%);
+  height: 215px;
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.footer h2 {
+  font-size: 17px;
+  color: white;
+}
+
+.footer p {
+  width: 180px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.822);
+}
+
+/* footer modification ===========================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* modification for desktop =================================== */
+@media (min-width: 1010px) {
+  main {
+    width: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .top {
+    width: 80%;
+    height: 25%;
+  }
+
+  .main {
+    height: 220px;
+  }
+
+  .footer {
+    height: 220px;
+  }
+}
